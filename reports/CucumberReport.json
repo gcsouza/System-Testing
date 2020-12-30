@@ -1,0 +1,2708 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4598539100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuário está na página inicial",
+            "match": {
+              "location": "ProcessosSteps.queOUsuarioEstaNaPaginaInicial()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 484899500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que o usuário clica no menu processos",
+            "match": {
+              "location": "ProcessosSteps.queOUsuarioClicaNoMenuProcessos()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 15577898100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o usuário clica no botão Novo Processo",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicaNoBotaoNovoProcesso()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 5825395200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "o usuário preenche o campo \"vara\" com o valor \"Vara de São Caetano\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 28
+                },
+                {
+                  "val": "Vara de São Caetano",
+                  "offset": 47
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 579843900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o usuário preenche o campo \"número processo\" com o valor \"0000198794\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "número processo",
+                  "offset": 28
+                },
+                {
+                  "val": "0000198794",
+                  "offset": 58
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 239033300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o usuário preenche o campo \"natureza\" com o valor \"Criminal\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 28
+                },
+                {
+                  "val": "Criminal",
+                  "offset": 51
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 273018400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o usuário preenche o campo \"partes\" com o valor \"Ana Paula\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 28
+                },
+                {
+                  "val": "Ana Paula",
+                  "offset": 49
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1396463200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o usuário preenche o campo \"urgente\" com o valor \"Sim\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 28
+                },
+                {
+                  "val": "Sim",
+                  "offset": 50
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 187903600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o usuário preenche o campo \"arbitramento\" com o valor \"Não\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 28
+                },
+                {
+                  "val": "Não",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 307151500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o usuário preenche o campo \"assistente social\" com o valor \"Tais Borges\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistente social",
+                  "offset": 28
+                },
+                {
+                  "val": "Tais Borges",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 302071700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o usuário preenche o campo \"data entrada\" com o valor \"28/12/2020\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data entrada",
+                  "offset": 28
+                },
+                {
+                  "val": "28/12/2020",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 270701500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o usuário preenche o campo \"status\" com o valor \"Em andamento\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 28
+                },
+                {
+                  "val": "Em andamento",
+                  "offset": 49
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 21433869900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Adicionar um novo Processo - Create.",
+        "description": "",
+        "id": "crud-de-processo-judicial.;adicionar-um-novo-processo---create.",
+        "after": [
+          {
+            "result": {
+              "duration": 15963741300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1597429300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "o usuário clicar no botão salvar no cadastro de processos",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicarNoBotaoSalvarNoCadastroDeProcessos()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 90982100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "o usuário deveria ver a mensagem \"Processo foi criado com sucesso.\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Processo foi criado com sucesso.",
+                  "offset": 34
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDeveriaVerAMensagemNoCadastroDeProcessos(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@validarProcessos"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 5483822000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuário está na página inicial",
+            "match": {
+              "location": "ProcessosSteps.queOUsuarioEstaNaPaginaInicial()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 326948000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que o usuário clica no menu processos",
+            "match": {
+              "location": "ProcessosSteps.queOUsuarioClicaNoMenuProcessos()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 13754429300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o usuário clica no botão Novo Processo",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicaNoBotaoNovoProcesso()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1421661900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "o usuário preenche o campo \"vara\" com o valor \"Vara de São Caetano\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 28
+                },
+                {
+                  "val": "Vara de São Caetano",
+                  "offset": 47
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 571780000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o usuário preenche o campo \"número processo\" com o valor \"0000198794\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "número processo",
+                  "offset": 28
+                },
+                {
+                  "val": "0000198794",
+                  "offset": 58
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 498060600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o usuário preenche o campo \"natureza\" com o valor \"Criminal\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 28
+                },
+                {
+                  "val": "Criminal",
+                  "offset": 51
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 508009800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o usuário preenche o campo \"partes\" com o valor \"Ana Paula\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 28
+                },
+                {
+                  "val": "Ana Paula",
+                  "offset": 49
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 442875200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o usuário preenche o campo \"urgente\" com o valor \"Sim\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 28
+                },
+                {
+                  "val": "Sim",
+                  "offset": 50
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 209957500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o usuário preenche o campo \"arbitramento\" com o valor \"Não\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 28
+                },
+                {
+                  "val": "Não",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 401863800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o usuário preenche o campo \"assistente social\" com o valor \"Tais Borges\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistente social",
+                  "offset": 28
+                },
+                {
+                  "val": "Tais Borges",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 351641100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o usuário preenche o campo \"data entrada\" com o valor \"28/12/2020\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data entrada",
+                  "offset": 28
+                },
+                {
+                  "val": "28/12/2020",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 424820700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o usuário preenche o campo \"status\" com o valor \"Em andamento\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 28
+                },
+                {
+                  "val": "Em andamento",
+                  "offset": 49
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9116645300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Mostrar um novo processo - Read.",
+        "description": "",
+        "id": "crud-de-processo-judicial.;mostrar-um-novo-processo---read.",
+        "after": [
+          {
+            "result": {
+              "duration": 1173097800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1476368100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "o usuário clicar no botão salvar no cadastro de processos",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicarNoBotaoSalvarNoCadastroDeProcessos()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 164548300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "o usuário clicar no botão voltar no cadastro de processos",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicaNoBotaoVoltarNoCadastroDeProcessos()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 11552034900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "o usuário clica no botão mostrar do processo cadastrado",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicaNoBotaoMostrarDoProcessoCadastrado()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 197379300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "o usuário deverá ver o valor \"Vara de São Caetano\" no campo \"vara\" na parte de exibição do processo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vara de São Caetano",
+                  "offset": 30
+                },
+                {
+                  "val": "vara",
+                  "offset": 61
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDeveraVerOValorNoCampoNaParteDeExibicaoDoProcesso(String,String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 67113200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "o usuário deverá ver o valor \"0000198794\" no campo \"numero\" na parte de exibição do processo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0000198794",
+                  "offset": 30
+                },
+                {
+                  "val": "numero",
+                  "offset": 52
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDeveraVerOValorNoCampoNaParteDeExibicaoDoProcesso(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 65745200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "o usuário deverá ver o valor \"Criminal\" no campo \"natureza\" na parte de exibição do processo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Criminal",
+                  "offset": 30
+                },
+                {
+                  "val": "natureza",
+                  "offset": 50
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDeveraVerOValorNoCampoNaParteDeExibicaoDoProcesso(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 56744800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "o usuário deverá ver o valor \"Ana Paula\" no campo \"partes\" na parte de exibição do processo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ana Paula",
+                  "offset": 30
+                },
+                {
+                  "val": "partes",
+                  "offset": 51
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDeveraVerOValorNoCampoNaParteDeExibicaoDoProcesso(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 83085700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "o usuário deverá ver o valor \"S\" no campo \"urgente\" na parte de exibição do processo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "S",
+                  "offset": 30
+                },
+                {
+                  "val": "urgente",
+                  "offset": 43
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDeveraVerOValorNoCampoNaParteDeExibicaoDoProcesso(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 64058300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "o usuário deverá ver o valor \"N\" no campo \"arbitramento\" na parte de exibição do processo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "N",
+                  "offset": 30
+                },
+                {
+                  "val": "arbitramento",
+                  "offset": 43
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDeveraVerOValorNoCampoNaParteDeExibicaoDoProcesso(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 60918200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "o usuário deverá ver o valor \"Tais Borges\" no campo \"as_social\" na parte de exibição do processo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tais Borges",
+                  "offset": 30
+                },
+                {
+                  "val": "as_social",
+                  "offset": 53
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDeveraVerOValorNoCampoNaParteDeExibicaoDoProcesso(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 62671000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "o usuário deverá ver o valor \"2020-12-28\" no campo \"dt_entrada\" na parte de exibição do processo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2020-12-28",
+                  "offset": 30
+                },
+                {
+                  "val": "dt_entrada",
+                  "offset": 52
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDeveraVerOValorNoCampoNaParteDeExibicaoDoProcesso(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 66106800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "o usuário deverá ver o valor \"Em andamento\" no campo \"status\" na parte de exibição do processo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Em andamento",
+                  "offset": 30
+                },
+                {
+                  "val": "status",
+                  "offset": 54
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDeveraVerOValorNoCampoNaParteDeExibicaoDoProcesso(String,String)"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@validarProcessos"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 3986479500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuário está na página inicial",
+            "match": {
+              "location": "ProcessosSteps.queOUsuarioEstaNaPaginaInicial()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 364036700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que o usuário clica no menu processos",
+            "match": {
+              "location": "ProcessosSteps.queOUsuarioClicaNoMenuProcessos()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 12498948900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o usuário clica no botão Novo Processo",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicaNoBotaoNovoProcesso()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2378344500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "o usuário preenche o campo \"vara\" com o valor \"Vara de São Caetano\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 28
+                },
+                {
+                  "val": "Vara de São Caetano",
+                  "offset": 47
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 690823300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o usuário preenche o campo \"número processo\" com o valor \"0000198794\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "número processo",
+                  "offset": 28
+                },
+                {
+                  "val": "0000198794",
+                  "offset": 58
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 595905400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o usuário preenche o campo \"natureza\" com o valor \"Criminal\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 28
+                },
+                {
+                  "val": "Criminal",
+                  "offset": 51
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 419650200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o usuário preenche o campo \"partes\" com o valor \"Ana Paula\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 28
+                },
+                {
+                  "val": "Ana Paula",
+                  "offset": 49
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 713390000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o usuário preenche o campo \"urgente\" com o valor \"Sim\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 28
+                },
+                {
+                  "val": "Sim",
+                  "offset": 50
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 207603600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o usuário preenche o campo \"arbitramento\" com o valor \"Não\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 28
+                },
+                {
+                  "val": "Não",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 399680500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o usuário preenche o campo \"assistente social\" com o valor \"Tais Borges\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistente social",
+                  "offset": 28
+                },
+                {
+                  "val": "Tais Borges",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 493623700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o usuário preenche o campo \"data entrada\" com o valor \"28/12/2020\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data entrada",
+                  "offset": 28
+                },
+                {
+                  "val": "28/12/2020",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 273301000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o usuário preenche o campo \"status\" com o valor \"Em andamento\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 28
+                },
+                {
+                  "val": "Em andamento",
+                  "offset": 49
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11581050400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Editar um novo processo - Update.",
+        "description": "",
+        "id": "crud-de-processo-judicial.;editar-um-novo-processo---update.",
+        "after": [
+          {
+            "result": {
+              "duration": 2628765000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1284357000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "o usuário clicar no botão salvar no cadastro de processos",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicarNoBotaoSalvarNoCadastroDeProcessos()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 203107100,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "o usuário clicar no botão voltar no cadastro de processos",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicaNoBotaoVoltarNoCadastroDeProcessos()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 9484225700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "o usuário clicar no botão editar do processo cadastrado",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicarNoBotaoEditarDoProcessoCadastrado()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 949184400,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "o usuário preenche o campo \"assistente social\" com o valor \"Daniela Antunes\" na tela de edição de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistente social",
+                  "offset": 28
+                },
+                {
+                  "val": "Daniela Antunes",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNaTelaDeEdicaoDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1749268300,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "o usuário clicar no botão salvar na tela de edição de processos",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicarNoBotaoSalvarNaTelaDeEdicaoDeProcessos()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 103576100,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "o usuário deverá ver o valor \"Daniela Antunes\" no campo \"as_social\" na parte de exibição do processo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Daniela Antunes",
+                  "offset": 30
+                },
+                {
+                  "val": "as_social",
+                  "offset": 57
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDeveraVerOValorNoCampoNaParteDeExibicaoDoProcesso(String,String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 39,
+            "name": "@validarProcessos"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 3238915500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuário está na página inicial",
+            "match": {
+              "location": "ProcessosSteps.queOUsuarioEstaNaPaginaInicial()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 245229300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que o usuário clica no menu processos",
+            "match": {
+              "location": "ProcessosSteps.queOUsuarioClicaNoMenuProcessos()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 13145858400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o usuário clica no botão Novo Processo",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicaNoBotaoNovoProcesso()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2972881300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "o usuário preenche o campo \"vara\" com o valor \"Vara de São Caetano\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 28
+                },
+                {
+                  "val": "Vara de São Caetano",
+                  "offset": 47
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 455255100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o usuário preenche o campo \"número processo\" com o valor \"0000198794\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "número processo",
+                  "offset": 28
+                },
+                {
+                  "val": "0000198794",
+                  "offset": 58
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 327570600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o usuário preenche o campo \"natureza\" com o valor \"Criminal\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 28
+                },
+                {
+                  "val": "Criminal",
+                  "offset": 51
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 364916600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o usuário preenche o campo \"partes\" com o valor \"Ana Paula\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 28
+                },
+                {
+                  "val": "Ana Paula",
+                  "offset": 49
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 878883700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o usuário preenche o campo \"urgente\" com o valor \"Sim\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 28
+                },
+                {
+                  "val": "Sim",
+                  "offset": 50
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 271541100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o usuário preenche o campo \"arbitramento\" com o valor \"Não\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 28
+                },
+                {
+                  "val": "Não",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 547067100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o usuário preenche o campo \"assistente social\" com o valor \"Tais Borges\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistente social",
+                  "offset": 28
+                },
+                {
+                  "val": "Tais Borges",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 378006300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o usuário preenche o campo \"data entrada\" com o valor \"28/12/2020\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data entrada",
+                  "offset": 28
+                },
+                {
+                  "val": "28/12/2020",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 311725400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o usuário preenche o campo \"status\" com o valor \"Em andamento\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 28
+                },
+                {
+                  "val": "Em andamento",
+                  "offset": 49
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8164131700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Deletar um processo - Delete.",
+        "description": "",
+        "id": "crud-de-processo-judicial.;deletar-um-processo---delete.",
+        "after": [
+          {
+            "result": {
+              "duration": 2580991300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1426743900,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "o usuário clicar no botão salvar no cadastro de processos",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicarNoBotaoSalvarNoCadastroDeProcessos()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 156731800,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "o usuário clicar no botão voltar no cadastro de processos",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicaNoBotaoVoltarNoCadastroDeProcessos()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 12153350600,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "o usuário clicar no botão apagar do processo cadastrado",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicarNoBotaoApagarDoProcessoCadastrado()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 63481500,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "o usuário confirmar a deleção do processo",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioConfirmarADelecaoDoProcesso()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 11510851200,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "o botão apagar não pode mais existir para o usuário cadastrar o processo",
+            "match": {
+              "location": "ProcessosSteps.oBotaoApagarNaoPodeMaisExistirParaOUsuarioCadastrarOProcesso()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 48,
+            "name": "@validarProcessos"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 3696681600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuário está na página inicial",
+            "match": {
+              "location": "ProcessosSteps.queOUsuarioEstaNaPaginaInicial()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 257730300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que o usuário clica no menu processos",
+            "match": {
+              "location": "ProcessosSteps.queOUsuarioClicaNoMenuProcessos()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 10538976200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o usuário clica no botão Novo Processo",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicaNoBotaoNovoProcesso()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1150989900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "o usuário preenche o campo \"vara\" com o valor \"Vara de São Caetano\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 28
+                },
+                {
+                  "val": "Vara de São Caetano",
+                  "offset": 47
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 248538000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o usuário preenche o campo \"número processo\" com o valor \"0000198794\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "número processo",
+                  "offset": 28
+                },
+                {
+                  "val": "0000198794",
+                  "offset": 58
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 250680000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o usuário preenche o campo \"natureza\" com o valor \"Criminal\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 28
+                },
+                {
+                  "val": "Criminal",
+                  "offset": 51
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 267712000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o usuário preenche o campo \"partes\" com o valor \"Ana Paula\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 28
+                },
+                {
+                  "val": "Ana Paula",
+                  "offset": 49
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 216630200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o usuário preenche o campo \"urgente\" com o valor \"Sim\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 28
+                },
+                {
+                  "val": "Sim",
+                  "offset": 50
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 139341600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o usuário preenche o campo \"arbitramento\" com o valor \"Não\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 28
+                },
+                {
+                  "val": "Não",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 286610000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o usuário preenche o campo \"assistente social\" com o valor \"Tais Borges\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistente social",
+                  "offset": 28
+                },
+                {
+                  "val": "Tais Borges",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 298258300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o usuário preenche o campo \"data entrada\" com o valor \"28/12/2020\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data entrada",
+                  "offset": 28
+                },
+                {
+                  "val": "28/12/2020",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 265037000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o usuário preenche o campo \"status\" com o valor \"Em andamento\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 28
+                },
+                {
+                  "val": "Em andamento",
+                  "offset": 49
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9599656700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 75,
+        "name": "Adicionar um processo com Esquema de Cenário. Vara \u003d Vara de São Caetano",
+        "description": "",
+        "id": "crud-de-processo-judicial.;adicionar-um-processo-com-esquema-de-cenário.-vara-\u003d-\u003cvara\u003e;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4311521600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2007479700,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "que o usuário está na página inicial",
+            "match": {
+              "location": "ProcessosSteps.queOUsuarioEstaNaPaginaInicial()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 271587200,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "que o usuário clica no menu processos",
+            "match": {
+              "location": "ProcessosSteps.queOUsuarioClicaNoMenuProcessos()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 7133396100,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "o usuário clica no botão Novo Processo",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicaNoBotaoNovoProcesso()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1008279800,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "o usuário preenche o campo \"vara\" com o valor \"Vara de São Caetano\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 28
+                },
+                {
+                  "val": "Vara de São Caetano",
+                  "offset": 47
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 275196000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "o usuário preenche o campo \"número processo\" com o valor \"00001435299\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "número processo",
+                  "offset": 28
+                },
+                {
+                  "val": "00001435299",
+                  "offset": 58
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 222492200,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "o usuário preenche o campo \"natureza\" com o valor \"Criminal\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 28
+                },
+                {
+                  "val": "Criminal",
+                  "offset": 51
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 298402400,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "o usuário preenche o campo \"partes\" com o valor \"Amanda de Oliveira\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 28
+                },
+                {
+                  "val": "Amanda de Oliveira",
+                  "offset": 49
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 226163600,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "o usuário preenche o campo \"urgente\" com o valor \"Sim\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 28
+                },
+                {
+                  "val": "Sim",
+                  "offset": 50
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 95166900,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "o usuário preenche o campo \"arbitramento\" com o valor \"Não\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 28
+                },
+                {
+                  "val": "Não",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 257940300,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "o usuário preenche o campo \"assistente social\" com o valor \"Karla Cintra\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistente social",
+                  "offset": 28
+                },
+                {
+                  "val": "Karla Cintra",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 261747300,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "o usuário preenche o campo \"data entrada\" com o valor \"01/03/2020\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data entrada",
+                  "offset": 28
+                },
+                {
+                  "val": "01/03/2020",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 298925400,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "o usuário preenche o campo \"status\" com o valor \"Em andamento\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 28
+                },
+                {
+                  "val": "Em andamento",
+                  "offset": 49
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1517265000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "o usuário clicar no botão salvar no cadastro de processos",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicarNoBotaoSalvarNoCadastroDeProcessos()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 180990200,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "o usuário deveria ver a mensagem \"Processo foi criado com sucesso.\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Processo foi criado com sucesso.",
+                  "offset": 34
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDeveriaVerAMensagemNoCadastroDeProcessos(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 56,
+            "name": "@validarProcessos"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 6107910400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuário está na página inicial",
+            "match": {
+              "location": "ProcessosSteps.queOUsuarioEstaNaPaginaInicial()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 264290100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que o usuário clica no menu processos",
+            "match": {
+              "location": "ProcessosSteps.queOUsuarioClicaNoMenuProcessos()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 17271090200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o usuário clica no botão Novo Processo",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicaNoBotaoNovoProcesso()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1345074900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "o usuário preenche o campo \"vara\" com o valor \"Vara de São Caetano\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 28
+                },
+                {
+                  "val": "Vara de São Caetano",
+                  "offset": 47
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 366784300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o usuário preenche o campo \"número processo\" com o valor \"0000198794\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "número processo",
+                  "offset": 28
+                },
+                {
+                  "val": "0000198794",
+                  "offset": 58
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 348878100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o usuário preenche o campo \"natureza\" com o valor \"Criminal\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 28
+                },
+                {
+                  "val": "Criminal",
+                  "offset": 51
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 318074600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o usuário preenche o campo \"partes\" com o valor \"Ana Paula\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 28
+                },
+                {
+                  "val": "Ana Paula",
+                  "offset": 49
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 336505400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o usuário preenche o campo \"urgente\" com o valor \"Sim\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 28
+                },
+                {
+                  "val": "Sim",
+                  "offset": 50
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 271311900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o usuário preenche o campo \"arbitramento\" com o valor \"Não\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 28
+                },
+                {
+                  "val": "Não",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 366476700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o usuário preenche o campo \"assistente social\" com o valor \"Tais Borges\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistente social",
+                  "offset": 28
+                },
+                {
+                  "val": "Tais Borges",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 375279300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o usuário preenche o campo \"data entrada\" com o valor \"28/12/2020\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data entrada",
+                  "offset": 28
+                },
+                {
+                  "val": "28/12/2020",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 402132000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o usuário preenche o campo \"status\" com o valor \"Em andamento\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 28
+                },
+                {
+                  "val": "Em andamento",
+                  "offset": 49
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7779329600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 76,
+        "name": "Adicionar um processo com Esquema de Cenário. Vara \u003d Vara de São José Paulista 11",
+        "description": "",
+        "id": "crud-de-processo-judicial.;adicionar-um-processo-com-esquema-de-cenário.-vara-\u003d-\u003cvara\u003e;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1251396000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1146352900,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "que o usuário está na página inicial",
+            "match": {
+              "location": "ProcessosSteps.queOUsuarioEstaNaPaginaInicial()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 266178200,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "que o usuário clica no menu processos",
+            "match": {
+              "location": "ProcessosSteps.queOUsuarioClicaNoMenuProcessos()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 7403472100,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "o usuário clica no botão Novo Processo",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicaNoBotaoNovoProcesso()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1270773400,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "o usuário preenche o campo \"vara\" com o valor \"Vara de São José Paulista 11\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vara",
+                  "offset": 28
+                },
+                {
+                  "val": "Vara de São José Paulista 11",
+                  "offset": 47
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 311724000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "o usuário preenche o campo \"número processo\" com o valor \"00008971295\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "número processo",
+                  "offset": 28
+                },
+                {
+                  "val": "00008971295",
+                  "offset": 58
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 355222100,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "o usuário preenche o campo \"natureza\" com o valor \"Tributario\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "natureza",
+                  "offset": 28
+                },
+                {
+                  "val": "Tributario",
+                  "offset": 51
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 391986500,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "o usuário preenche o campo \"partes\" com o valor \"Guilherme Pereira\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "partes",
+                  "offset": 28
+                },
+                {
+                  "val": "Guilherme Pereira",
+                  "offset": 49
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 276859600,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "o usuário preenche o campo \"urgente\" com o valor \"Sim\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "urgente",
+                  "offset": 28
+                },
+                {
+                  "val": "Sim",
+                  "offset": 50
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 215998500,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "o usuário preenche o campo \"arbitramento\" com o valor \"Não\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbitramento",
+                  "offset": 28
+                },
+                {
+                  "val": "Não",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 368126000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "o usuário preenche o campo \"assistente social\" com o valor \"Juliana Amaral\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "assistente social",
+                  "offset": 28
+                },
+                {
+                  "val": "Juliana Amaral",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 361266700,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "o usuário preenche o campo \"data entrada\" com o valor \"05/03/2020\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "data entrada",
+                  "offset": 28
+                },
+                {
+                  "val": "05/03/2020",
+                  "offset": 55
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 380471500,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "o usuário preenche o campo \"status\" com o valor \"Encerrado\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 28
+                },
+                {
+                  "val": "Encerrado",
+                  "offset": 49
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1431056600,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "o usuário clicar no botão salvar no cadastro de processos",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicarNoBotaoSalvarNoCadastroDeProcessos()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 87199300,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "o usuário deveria ver a mensagem \"Processo foi criado com sucesso.\" no cadastro de processos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Processo foi criado com sucesso.",
+                  "offset": 34
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDeveriaVerAMensagemNoCadastroDeProcessos(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 56,
+            "name": "@validarProcessos"
+          }
+        ]
+      }
+    ],
+    "name": "CRUD de Processo Judicial.",
+    "description": "",
+    "id": "crud-de-processo-judicial.",
+    "keyword": "Funcionalidade",
+    "uri": "CRUDProcessos.feature"
+  }
+]

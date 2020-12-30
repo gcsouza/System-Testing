@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+              <th>Number</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>system-testing - System Testing Execution Report</td>
+              <td>1</td>
+            <td>30 dez 2020, 20:25</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Duration</th>
+            <th>Average</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">Hooks.afterScenario(Scenario)</td>
+              <td>6</td>
+              <td class="duration" data-value="27909513000">27.909</td>
+              <td class="duration" data-value="4651585500">4.651</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">Hooks.beforeScenario(Scenario)</td>
+              <td>6</td>
+              <td class="duration" data-value="67674683600">1:7.674</td>
+              <td class="duration" data-value="11279113933">11.279</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessosSteps.oBotaoApagarNaoPodeMaisExistirParaOUsuarioCadastrarOProcesso()</td>
+              <td>1</td>
+              <td class="duration" data-value="11510851200">11.510</td>
+              <td class="duration" data-value="11510851200">11.510</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessosSteps.oUsuarioClicaNoBotaoMostrarDoProcessoCadastrado()</td>
+              <td>1</td>
+              <td class="duration" data-value="11552034900">11.552</td>
+              <td class="duration" data-value="11552034900">11.552</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessosSteps.oUsuarioClicaNoBotaoNovoProcesso()</td>
+              <td>8</td>
+              <td class="duration" data-value="97324069300">1:37.324</td>
+              <td class="duration" data-value="12165508662">12.165</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessosSteps.oUsuarioClicaNoBotaoVoltarNoCadastroDeProcessos()</td>
+              <td>3</td>
+              <td class="duration" data-value="524387200">0.524</td>
+              <td class="duration" data-value="174795733">0.174</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessosSteps.oUsuarioClicarNoBotaoApagarDoProcessoCadastrado()</td>
+              <td>1</td>
+              <td class="duration" data-value="12153350600">12.153</td>
+              <td class="duration" data-value="12153350600">12.153</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessosSteps.oUsuarioClicarNoBotaoEditarDoProcessoCadastrado()</td>
+              <td>1</td>
+              <td class="duration" data-value="9484225700">9.484</td>
+              <td class="duration" data-value="9484225700">9.484</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessosSteps.oUsuarioClicarNoBotaoSalvarNaTelaDeEdicaoDeProcessos()</td>
+              <td>1</td>
+              <td class="duration" data-value="1749268300">1.749</td>
+              <td class="duration" data-value="1749268300">1.749</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessosSteps.oUsuarioClicarNoBotaoSalvarNoCadastroDeProcessos()</td>
+              <td>6</td>
+              <td class="duration" data-value="8733219900">8.733</td>
+              <td class="duration" data-value="1455536650">1.455</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessosSteps.oUsuarioConfirmarADelecaoDoProcesso()</td>
+              <td>1</td>
+              <td class="duration" data-value="63481500">0.063</td>
+              <td class="duration" data-value="63481500">0.063</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessosSteps.oUsuarioDeveraVerOValorNoCampoNaParteDeExibicaoDoProcesso(String,String)</td>
+              <td>10</td>
+              <td class="duration" data-value="827398600">0.827</td>
+              <td class="duration" data-value="82739860">0.082</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessosSteps.oUsuarioDeveriaVerAMensagemNoCadastroDeProcessos(String)</td>
+              <td>3</td>
+              <td class="duration" data-value="359171600">0.359</td>
+              <td class="duration" data-value="119723866">0.119</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessosSteps.oUsuarioPreencheOCampoComOValorNaTelaDeEdicaoDeProcessos(String,String)</td>
+              <td>1</td>
+              <td class="duration" data-value="949184400">0.949</td>
+              <td class="duration" data-value="949184400">0.949</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessosSteps.oUsuarioPreencheOCampoComOValorNoCadastroDeProcessos(String,String)</td>
+              <td>72</td>
+              <td class="duration" data-value="41023478700">41.023</td>
+              <td class="duration" data-value="569770537">0.569</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessosSteps.queOUsuarioClicaNoMenuProcessos()</td>
+              <td>8</td>
+              <td class="duration" data-value="2480899300">2.480</td>
+              <td class="duration" data-value="310112412">0.310</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">ProcessosSteps.queOUsuarioEstaNaPaginaInicial()</td>
+              <td>8</td>
+              <td class="duration" data-value="30266180700">30.266</td>
+              <td class="duration" data-value="3783272587">3.783</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>17</td>
+            <td>137</td>
+            <td class="duration">5:24.585</td>
+            <td class="duration">2.369</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
